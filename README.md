@@ -52,6 +52,9 @@
     gcc -c -o main.o main.c
     gcc -o a.out a.o b.o main.o
 
+    # 윈도우 환경일 경우
+    PS > mingw32-make
+
     $ ls
     a.c  a.h  a.o a.out b.c  b.h  b.o main.c  main.o  Makefile
 
